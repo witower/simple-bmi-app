@@ -6,4 +6,6 @@
     <string name="weightLabel">Put your weight in kilograms</string>
     <string name="calculateButton">Calculate BMI</string>
     <string name="calculating">Calculating</string>
+    <string name="snackbar_text">This button does nothing, but thanks for trying!</string>
+    <string name="bmi_result_text">Your BMI is:</string>
 </resources>

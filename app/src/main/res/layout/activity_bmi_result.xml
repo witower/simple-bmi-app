@@ -11,16 +11,22 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/calculating"
-        android:textSize="18sp"
+        android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <androidx.constraintlayout.widget.Barrier
-        android:id="@+id/barrier"
+    <TextView
+        android:id="@+id/BmiResultLabel"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:barrierDirection="left" />
+        android:layout_marginBottom="28dp"
+        android:text="@string/bmi_result_text"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toTopOf="@+id/bmiResults"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
